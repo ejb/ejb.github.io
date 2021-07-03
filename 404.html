@@ -1,0 +1,7 @@
+<script>
+  let referrer = new URL(document.referrer);
+  let hostRedirection = 'https://elliotbentley.com/';
+
+  document.location.href = hostRedirection + referrer.pathname;
+</script>
+<p>Moved to <a href="https://elliotbentley.com">elliotbentley.com</a></p>
